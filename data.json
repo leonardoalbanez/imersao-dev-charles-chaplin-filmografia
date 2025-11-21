@@ -1,5 +1,33 @@
 [
     {
+        "titulo": "O Vagabundo (The Tramp)",
+        "sinopse": "Após salvar uma jovem de ladrões, o Vagabundo é acolhido na fazenda de seu pai. Ele se apaixona por ela, mas percebe que seu coração pertence a outro. Este curta solidificou a persona do Vagabundo.",
+        "ano": 1915,
+        "personagem": "O Vagabundo",
+        "link": "https://www.imdb.com/title/tt0006177/"
+    },
+    {
+        "titulo": "O Conde (The Count)",
+        "sinopse": "Um alfaiate e seu assistente (o Vagabundo) fogem após arruinarem o terno de um cliente. Eles encontram um convite para uma festa e o Vagabundo se passa por um conde para impressionar uma bela anfitriã.",
+        "ano": 1916,
+        "personagem": "Assistente de Alfaiate",
+        "link": "https://www.imdb.com/title/tt0006558/"
+    },
+    {
+        "titulo": "O Agiota (The Pawnshop)",
+        "sinopse": "O Vagabundo trabalha como assistente em uma loja de penhores. Em um dia caótico, ele inspeciona os itens dos clientes de forma hilária, briga com seu colega de trabalho e, no final, enfrenta um ladrão.",
+        "ano": 1916,
+        "personagem": "Assistente do Agiota",
+        "link": "https://www.imdb.com/title/tt0007162/"
+    },
+    {
+        "titulo": "Rua da Paz (Easy Street)",
+        "sinopse": "Após ser inspirado por uma missionária, o Vagabundo se torna policial e é designado para a rua mais perigosa da cidade. Ele usa sua astúcia para enfrentar o valentão local e trazer ordem ao caos.",
+        "ano": 1917,
+        "personagem": "O Vagabundo",
+        "link": "https://www.imdb.com/title/tt0007918/"
+    },
+    {
         "titulo": "O Imigrante (The Immigrant)",
         "sinopse": "Um curta-metragem que mostra a jornada de um imigrante europeu para os Estados Unidos. A bordo do navio, ele conhece uma jovem e a ajuda a superar as dificuldades da viagem e da chegada à nova terra.",
         "ano": 1917,
