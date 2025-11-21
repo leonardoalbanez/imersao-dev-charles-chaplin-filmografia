@@ -1,0 +1,135 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Special Elite', monospace, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #fff;
+}
+
+header h1 {
+    margin: 0 0 15px 0;
+    font-size: 2.5em;
+}
+
+header input[type="text"] {
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Special Elite', monospace;
+    width: 250px;
+}
+
+header button {
+    padding: 10px 15px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    font-family: 'Special Elite', monospace;
+    margin-left: 5px;
+    transition: background-color 0.3s;
+}
+
+header button:hover {
+    background-color: #777;
+}
+
+/* Container dos Cards */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px;
+}
+
+/* Estilo de Claquete para o Card */
+.card {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    padding: 20px;
+    padding-top: 60px; /* Espaço para a parte superior da claquete */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border: 1px solid #444;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: repeating-linear-gradient(
+        -45deg,
+        #ffffff,
+        #ffffff 15px,
+        #1a1a1a 15px,
+        #1a1a1a 30px
+    );
+    border-bottom: 2px solid #fff;
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.card p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.card a {
+    color: #a0c4ff;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
